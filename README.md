@@ -13,11 +13,12 @@ implemented, in development, and planned.
 
 ###In development:
 - Core engine
-- Core movement module
 
 
 ###Planned:
--
+- Core movement module
+- Core physics module
+- Physics-collisions
 
 
 ##STRUCTURE

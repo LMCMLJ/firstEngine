@@ -1,4 +1,4 @@
-# firstEngine-0.0.0
+# firstEngine Version 0.0.1
 This is my first ever attempt at a game engine, written mostly in JS. This code
 is being written fully test driven, with tests written in jasmine.
 

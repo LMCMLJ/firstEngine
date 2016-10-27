@@ -22,8 +22,19 @@ implemented, in development, and planned.
 
 
 ##STRUCTURE
-The engine is structured in a fairly simple fashion. The main gametime component
-is in `src/engine/`, and all of the additional modules are located in `src/module_name`
+The engine is structured in a fairly simple fashion. The main game loop is located in `src/main.js`. This loop calls all of the other
+modules.
+
+###Entity:
+The entity module controls all objects being displayed. It is in
+charge of updating all entity positions on the canvas. It contains
+all of the aspects necessary for movable objects.
+
+
+##TESTING
+This project is being developed fully test driven. The tests are run through
+the jasmine framework. Simply run `open SpecRunner.html` while in the main
+project directory to view tests.
 
 
 ##INSTRUCTIONS

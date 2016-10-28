@@ -20,6 +20,8 @@ As this engine is currently in development, features are going to be split into 
 
 
 ##STRUCTURE
+
+###Main:
 The engine is structured in a fairly simple fashion. The main game loop is located in `src/main.js`. This loop calls all of the other
 modules.
 

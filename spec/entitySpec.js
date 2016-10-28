@@ -8,10 +8,9 @@ describe("Entity", function() {
 
   describe("Initialize", function() {
     it("start location param", function() {
-      newEntity = new Entity(200, 199, 0, 1);
-      console.log(newEntity);
-      expect(newEntity.position.x).toBe(200);
-      expect(newEntity.position.y).toBe(199);
+      console.log(entity);
+      expect(entity.position.x).toBe(200);
+      expect(entity.position.y).toBe(199);
     });
   });
 

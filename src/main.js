@@ -7,3 +7,7 @@ function Main() {
     this.tick += 1;
   }
 }
+
+Main.prototype.newEntity = function(name) {
+  this.name = new Entity();
+};

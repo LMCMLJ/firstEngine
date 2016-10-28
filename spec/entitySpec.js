@@ -27,5 +27,10 @@ describe("Entity", function() {
       newEntity.updatePosition(newEntity);
       expect(newEntity.position.x).toBe(250);
     });
+    it("decreases x by 1 if rotation is 150 and velocity is 1", function() {
+      var newEntity = new Entity(250, 250, 150, 1);
+      newEntity.updatePosition(newEntity);
+      expect(newEntity.position.x).toBe(249);
+    });
   });
 });

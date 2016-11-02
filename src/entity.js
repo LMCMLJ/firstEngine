@@ -21,17 +21,14 @@ Entity.prototype.update = function() {
 
 Entity.prototype.updatePosition = function(self) {
   console.log(self.rotation);
-  if(self.velocity === 0) {
-    return true;
+  if(self.rotation === 0) {
+    this.position.x = this.position.x + getDX(self);
   }
-  else if(self.rotation !== 90 && self.rotation !== 270) {
-    console.log("Running");
-    this.position.x = this.position.x + self.getDX(self);
-    this.position.y = this.position.y + self.getDY(self);
-  }
-  else if(self.rotation === 90 && self.rotation === 270) {
-    this.position.y = this.position.y + self.getDY(self);
-  }
+  else if(self.rotation === 90) {}
+  else if(self.rotation === 180) {}
+  else if(self.rotation === 270) {}
+  else if(self.rotation > 90 && self.rotation < 270) {}
+  else {}
 };
 
 Entity.prototype.getDX = function(self) {
